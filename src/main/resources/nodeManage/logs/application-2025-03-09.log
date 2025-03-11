@@ -1,0 +1,573 @@
+2025-03-09 15:52:02 [INFO]: 服务器已启动，正在监听端口 3000
+2025-03-09 15:52:29 [INFO]: 登录请求: admin
+2025-03-09 15:52:29 [INFO]: 登录成功: {"userId":1,"username":"admin"}
+2025-03-09 15:52:29 [INFO]: ::1 - - [09/Mar/2025:07:52:29 +0000] "POST /login HTTP/1.1" 200 341 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:30 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 15:52:30 [INFO]: ::1 - - [09/Mar/2025:07:52:30 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:31 [INFO]: 转发请求: GET /users/getUserById/1
+2025-03-09 15:52:31 [INFO]: ::1 - - [09/Mar/2025:07:52:31 +0000] "GET /users/getUserById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:33 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 15:52:33 [INFO]: 转发请求: GET /menu/page
+2025-03-09 15:52:33 [INFO]: ::1 - - [09/Mar/2025:07:52:33 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:33 [INFO]: ::1 - - [09/Mar/2025:07:52:33 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:35 [INFO]: 转发请求: GET /users/getUserById/1
+2025-03-09 15:52:35 [INFO]: ::1 - - [09/Mar/2025:07:52:35 +0000] "GET /users/getUserById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:38 [INFO]: 转发请求: POST /users/update
+2025-03-09 15:52:38 [INFO]: ::1 - - [09/Mar/2025:07:52:38 +0000] "POST /users/update HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:52:38 [INFO]: 转发请求: GET /users/getUserById/1
+2025-03-09 15:52:38 [INFO]: ::1 - - [09/Mar/2025:07:52:38 +0000] "GET /users/getUserById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:53:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:53:49 [INFO]: ::1 - - [09/Mar/2025:07:53:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:53:51 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:53:52 [INFO]: ::1 - - [09/Mar/2025:07:53:52 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:53:56 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:53:56 [INFO]: ::1 - - [09/Mar/2025:07:53:56 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:53:59 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:53:59 [INFO]: ::1 - - [09/Mar/2025:07:53:59 +0000] "GET /orders/getAll?pageNum=1&pageSize=10&orderNumber=241122-002 HTTP/1.1" 200 481 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:54:01 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:54:01 [INFO]: ::1 - - [09/Mar/2025:07:54:01 +0000] "GET /orders/getAll?pageNum=1&pageSize=10&orderNumber=241122 HTTP/1.1" 200 1247 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:54:07 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:54:07 [INFO]: ::1 - - [09/Mar/2025:07:54:07 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:54:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:54:13 [INFO]: ::1 - - [09/Mar/2025:07:54:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10&orderStatus=0 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 15:54:16 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 15:54:16 [INFO]: ::1 - - [09/Mar/2025:07:54:16 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 16:41:53 [INFO]: 登录请求: admin
+2025-03-09 16:41:53 [INFO]: 登录成功: {"userId":1,"username":"admin"}
+2025-03-09 16:41:53 [INFO]: ::ffff:127.0.0.1 - - [09/Mar/2025:08:41:53 +0000] "POST /login HTTP/1.1" 200 341 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 16:42:26 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 16:42:26 [INFO]: ::1 - - [09/Mar/2025:08:42:26 +0000] "GET /orders/detail/1 HTTP/1.1" 200 903 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:00:59 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:00:59 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:00:59 [INFO]: ::1 - - [09/Mar/2025:09:00:59 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:00:59 [INFO]: ::1 - - [09/Mar/2025:09:00:59 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:00:59 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:00:59 [INFO]: ::1 - - [09/Mar/2025:09:00:59 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:00:59 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:00:59 [INFO]: ::1 - - [09/Mar/2025:09:00:59 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:01:59 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:01:59 [INFO]: ::1 - - [09/Mar/2025:09:01:59 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:02:10 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:02:10 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:02:10 [INFO]: ::1 - - [09/Mar/2025:09:02:10 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:02:10 [INFO]: ::1 - - [09/Mar/2025:09:02:10 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:02:10 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:02:10 [INFO]: ::1 - - [09/Mar/2025:09:02:10 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:02:10 [INFO]: 转发请求: GET /orders/getOrderById/1
+2025-03-09 17:02:10 [INFO]: ::1 - - [09/Mar/2025:09:02:10 +0000] "GET /orders/getOrderById/1 HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:06:34 [INFO]: 转发请求: GET /orders/getOrderById/1
+2025-03-09 17:06:34 [INFO]: ::1 - - [09/Mar/2025:09:06:34 +0000] "GET /orders/getOrderById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:07:11 [INFO]: 转发请求: GET /orders/getOrderById/1
+2025-03-09 17:07:11 [INFO]: ::1 - - [09/Mar/2025:09:07:11 +0000] "GET /orders/getOrderById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:07:17 [INFO]: 转发请求: GET /orders/getOrderById/1
+2025-03-09 17:07:17 [INFO]: ::1 - - [09/Mar/2025:09:07:17 +0000] "GET /orders/getOrderById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:07:58 [INFO]: 转发请求: GET /orders/getOrderById/1
+2025-03-09 17:07:58 [INFO]: ::1 - - [09/Mar/2025:09:07:58 +0000] "GET /orders/getOrderById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:08:21 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:08:21 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:08:21 [INFO]: ::1 - - [09/Mar/2025:09:08:21 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:08:21 [INFO]: ::1 - - [09/Mar/2025:09:08:21 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:08:21 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:08:21 [INFO]: ::1 - - [09/Mar/2025:09:08:21 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:08:26 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:08:26 [INFO]: ::1 - - [09/Mar/2025:09:08:26 +0000] "GET /orders/detail/1 HTTP/1.1" 200 903 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:11:13 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:11:13 [INFO]: ::1 - - [09/Mar/2025:09:11:13 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:13 [INFO]: ::1 - - [09/Mar/2025:09:11:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:11:13 [INFO]: ::1 - - [09/Mar/2025:09:11:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:15 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:11:15 [INFO]: ::1 - - [09/Mar/2025:09:11:15 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:18 [INFO]: 转发请求: GET /orders/detail/3
+2025-03-09 17:11:18 [INFO]: ::1 - - [09/Mar/2025:09:11:18 +0000] "GET /orders/detail/3 HTTP/1.1" 200 932 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:22 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:11:22 [INFO]: ::1 - - [09/Mar/2025:09:11:22 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:26 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:11:26 [INFO]: ::1 - - [09/Mar/2025:09:11:26 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:27 [INFO]: 转发请求: GET /orders/detail/3
+2025-03-09 17:11:27 [INFO]: ::1 - - [09/Mar/2025:09:11:27 +0000] "GET /orders/detail/3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:30 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:11:30 [INFO]: ::1 - - [09/Mar/2025:09:11:30 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:36 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:11:36 [INFO]: ::1 - - [09/Mar/2025:09:11:36 +0000] "GET /orders/detail/2 HTTP/1.1" 200 888 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:41 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:11:41 [INFO]: ::1 - - [09/Mar/2025:09:11:41 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:43 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:11:43 [INFO]: ::1 - - [09/Mar/2025:09:11:43 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:11:57 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:11:57 [INFO]: ::1 - - [09/Mar/2025:09:11:57 +0000] "GET /orders/detail/2 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:03 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:12:03 [INFO]: ::1 - - [09/Mar/2025:09:12:03 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:05 [INFO]: 转发请求: GET /orders/detail/3
+2025-03-09 17:12:05 [INFO]: ::1 - - [09/Mar/2025:09:12:05 +0000] "GET /orders/detail/3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:26 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:12:26 [INFO]: ::1 - - [09/Mar/2025:09:12:26 +0000] "GET /orders/detail/2 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:28 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:12:28 [INFO]: ::1 - - [09/Mar/2025:09:12:28 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:12:49 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:12:49 [INFO]: ::1 - - [09/Mar/2025:09:12:49 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:49 [INFO]: ::1 - - [09/Mar/2025:09:12:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 1318 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:12:49 [INFO]: ::1 - - [09/Mar/2025:09:12:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:50 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:12:50 [INFO]: ::1 - - [09/Mar/2025:09:12:50 +0000] "GET /orders/detail/1 HTTP/1.1" 200 1318 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:12:53 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:12:53 [INFO]: ::1 - - [09/Mar/2025:09:12:53 +0000] "GET /orders/detail/2 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:00 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:15:00 [INFO]: ::1 - - [09/Mar/2025:09:15:00 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:04 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:15:04 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:15:04 [INFO]: ::1 - - [09/Mar/2025:09:15:04 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:04 [INFO]: ::1 - - [09/Mar/2025:09:15:04 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:04 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:15:04 [INFO]: ::1 - - [09/Mar/2025:09:15:04 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:04 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:15:04 [INFO]: ::1 - - [09/Mar/2025:09:15:04 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:42 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:15:42 [INFO]: ::1 - - [09/Mar/2025:09:15:42 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:45 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:15:45 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:15:45 [INFO]: ::1 - - [09/Mar/2025:09:15:45 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:45 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:15:45 [INFO]: ::1 - - [09/Mar/2025:09:15:45 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:45 [INFO]: ::1 - - [09/Mar/2025:09:15:45 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:15:45 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:15:45 [INFO]: ::1 - - [09/Mar/2025:09:15:45 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:17:10 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:17:10 [INFO]: ::1 - - [09/Mar/2025:09:17:10 +0000] "GET /orders/detail/2 HTTP/1.1" 200 888 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:17:19 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:17:19 [INFO]: ::1 - - [09/Mar/2025:09:17:19 +0000] "GET /orders/detail/1 HTTP/1.1" 200 1318 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:20:12 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:12 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:20:12 [INFO]: ::1 - - [09/Mar/2025:09:20:12 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:12 [INFO]: ::1 - - [09/Mar/2025:09:20:12 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:12 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:12 [INFO]: ::1 - - [09/Mar/2025:09:20:12 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:13 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:20:13 [INFO]: ::1 - - [09/Mar/2025:09:20:13 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:13 [INFO]: ::1 - - [09/Mar/2025:09:20:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:13 [INFO]: ::1 - - [09/Mar/2025:09:20:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:15 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:15 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:20:15 [INFO]: ::1 - - [09/Mar/2025:09:20:15 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:15 [INFO]: ::1 - - [09/Mar/2025:09:20:15 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:15 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:15 [INFO]: ::1 - - [09/Mar/2025:09:20:15 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:16 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:20:16 [INFO]: ::1 - - [09/Mar/2025:09:20:16 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:17 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:20:18 [INFO]: ::1 - - [09/Mar/2025:09:20:18 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:19 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:19 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:20:19 [INFO]: ::1 - - [09/Mar/2025:09:20:19 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:19 [INFO]: ::1 - - [09/Mar/2025:09:20:19 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:19 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:19 [INFO]: ::1 - - [09/Mar/2025:09:20:19 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:23 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:20:23 [INFO]: ::1 - - [09/Mar/2025:09:20:23 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:36 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:36 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:20:36 [INFO]: ::1 - - [09/Mar/2025:09:20:36 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:36 [INFO]: ::1 - - [09/Mar/2025:09:20:36 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:36 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:20:36 [INFO]: ::1 - - [09/Mar/2025:09:20:36 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:20:39 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:20:39 [INFO]: ::1 - - [09/Mar/2025:09:20:39 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:21:27 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:21:27 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:21:27 [INFO]: ::1 - - [09/Mar/2025:09:21:27 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:21:27 [INFO]: ::1 - - [09/Mar/2025:09:21:27 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:21:27 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:21:27 [INFO]: ::1 - - [09/Mar/2025:09:21:27 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:21:29 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:21:29 [INFO]: ::1 - - [09/Mar/2025:09:21:29 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:23:42 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:23:42 [ERROR]: 请求转发错误: 
+2025-03-09 17:23:42 [INFO]: ::1 - - [09/Mar/2025:09:23:42 +0000] "GET /orders/detail/1 HTTP/1.1" 200 37 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:23:45 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:23:45 [ERROR]: 请求转发错误: 
+2025-03-09 17:23:45 [INFO]: ::1 - - [09/Mar/2025:09:23:45 +0000] "GET /orders/detail/1 HTTP/1.1" 200 37 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:25:18 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:25:18 [INFO]: ::1 - - [09/Mar/2025:09:25:18 +0000] "GET /orders/detail/1 HTTP/1.1" 200 1370 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:28:24 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:28:24 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:28:24 [INFO]: ::1 - - [09/Mar/2025:09:28:24 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:28:24 [INFO]: ::1 - - [09/Mar/2025:09:28:24 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:28:24 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:28:24 [INFO]: ::1 - - [09/Mar/2025:09:28:24 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:28:26 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:28:26 [INFO]: ::1 - - [09/Mar/2025:09:28:26 +0000] "GET /orders/detail/1 HTTP/1.1" 200 1370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:28:30 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:28:30 [INFO]: ::1 - - [09/Mar/2025:09:28:30 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:34:53 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:34:53 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:34:54 [INFO]: ::1 - - [09/Mar/2025:09:34:54 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:34:54 [INFO]: ::1 - - [09/Mar/2025:09:34:54 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:34:54 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:34:54 [INFO]: ::1 - - [09/Mar/2025:09:34:54 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:37:58 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:37:58 [INFO]: ::1 - - [09/Mar/2025:09:37:58 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:44:48 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:44:48 [INFO]: ::1 - - [09/Mar/2025:09:44:48 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:45:53 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:45:53 [INFO]: ::1 - - [09/Mar/2025:09:45:53 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:46:19 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:46:19 [INFO]: ::1 - - [09/Mar/2025:09:46:19 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:46:28 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:46:28 [INFO]: ::1 - - [09/Mar/2025:09:46:28 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:46:30 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:46:30 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:46:30 [INFO]: ::1 - - [09/Mar/2025:09:46:30 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:46:30 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:46:30 [INFO]: ::1 - - [09/Mar/2025:09:46:30 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:46:30 [INFO]: ::1 - - [09/Mar/2025:09:46:30 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:46:32 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:46:32 [INFO]: ::1 - - [09/Mar/2025:09:46:32 +0000] "GET /orders/detail/undefined HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:47:06 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:47:06 [INFO]: ::1 - - [09/Mar/2025:09:47:06 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:47:07 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:47:07 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:47:07 [INFO]: ::1 - - [09/Mar/2025:09:47:07 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:47:07 [INFO]: ::1 - - [09/Mar/2025:09:47:07 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:47:07 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:47:07 [INFO]: ::1 - - [09/Mar/2025:09:47:07 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:47:09 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:47:09 [INFO]: ::1 - - [09/Mar/2025:09:47:09 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:04 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:48:04 [INFO]: ::1 - - [09/Mar/2025:09:48:04 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:08 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:48:08 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:48:08 [INFO]: ::1 - - [09/Mar/2025:09:48:08 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:08 [INFO]: ::1 - - [09/Mar/2025:09:48:08 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:08 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:48:08 [INFO]: ::1 - - [09/Mar/2025:09:48:08 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:11 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:48:11 [INFO]: ::1 - - [09/Mar/2025:09:48:11 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:56 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:48:56 [INFO]: ::1 - - [09/Mar/2025:09:48:56 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:48:56 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:48:56 [INFO]: ::1 - - [09/Mar/2025:09:48:56 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:16 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:49:16 [INFO]: ::1 - - [09/Mar/2025:09:49:16 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:18 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:49:18 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:49:18 [INFO]: ::1 - - [09/Mar/2025:09:49:18 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:18 [INFO]: ::1 - - [09/Mar/2025:09:49:18 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:18 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:49:18 [INFO]: ::1 - - [09/Mar/2025:09:49:18 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:20 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:49:20 [INFO]: ::1 - - [09/Mar/2025:09:49:20 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:31 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:49:31 [INFO]: ::1 - - [09/Mar/2025:09:49:31 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:38 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:49:38 [INFO]: ::1 - - [09/Mar/2025:09:49:38 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:40 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:49:40 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:49:40 [INFO]: ::1 - - [09/Mar/2025:09:49:40 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:40 [INFO]: ::1 - - [09/Mar/2025:09:49:40 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:40 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:49:40 [INFO]: ::1 - - [09/Mar/2025:09:49:40 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:49:43 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:49:43 [INFO]: ::1 - - [09/Mar/2025:09:49:43 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:27 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:50:27 [INFO]: ::1 - - [09/Mar/2025:09:50:27 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:29 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:50:29 [INFO]: ::1 - - [09/Mar/2025:09:50:29 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:30 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:50:30 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:50:30 [INFO]: ::1 - - [09/Mar/2025:09:50:30 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:30 [INFO]: ::1 - - [09/Mar/2025:09:50:30 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:30 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:50:30 [INFO]: ::1 - - [09/Mar/2025:09:50:30 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:33 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:50:33 [INFO]: ::1 - - [09/Mar/2025:09:50:33 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:43 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:50:43 [INFO]: ::1 - - [09/Mar/2025:09:50:43 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:46 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:50:46 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:50:46 [INFO]: ::1 - - [09/Mar/2025:09:50:46 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:46 [INFO]: ::1 - - [09/Mar/2025:09:50:46 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:46 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:50:46 [INFO]: ::1 - - [09/Mar/2025:09:50:46 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:50 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:50:50 [INFO]: ::1 - - [09/Mar/2025:09:50:50 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:50:56 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:50:56 [INFO]: ::1 - - [09/Mar/2025:09:50:56 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:14 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:14 [INFO]: ::1 - - [09/Mar/2025:09:51:14 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:26 [INFO]: 转发请求: GET /orders/detail/undefined
+2025-03-09 17:51:26 [INFO]: ::1 - - [09/Mar/2025:09:51:26 +0000] "GET /orders/detail/undefined HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:28 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:28 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:51:28 [INFO]: ::1 - - [09/Mar/2025:09:51:28 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:28 [INFO]: ::1 - - [09/Mar/2025:09:51:28 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:28 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:28 [INFO]: ::1 - - [09/Mar/2025:09:51:28 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:30 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:51:30 [INFO]: ::1 - - [09/Mar/2025:09:51:30 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:39 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:39 [INFO]: ::1 - - [09/Mar/2025:09:51:39 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:41 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:41 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:51:41 [INFO]: ::1 - - [09/Mar/2025:09:51:41 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:41 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:41 [INFO]: ::1 - - [09/Mar/2025:09:51:41 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:41 [INFO]: ::1 - - [09/Mar/2025:09:51:41 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:45 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:51:45 [INFO]: ::1 - - [09/Mar/2025:09:51:45 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:49 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:51:49 [INFO]: ::1 - - [09/Mar/2025:09:51:49 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:49 [INFO]: ::1 - - [09/Mar/2025:09:51:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:51:49 [INFO]: ::1 - - [09/Mar/2025:09:51:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:50 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:51:50 [INFO]: ::1 - - [09/Mar/2025:09:51:50 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:55 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:51:55 [INFO]: ::1 - - [09/Mar/2025:09:51:55 +0000] "GET /orders/detail/2 HTTP/1.1" 200 915 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:57 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:51:57 [INFO]: ::1 - - [09/Mar/2025:09:51:57 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:51:59 [INFO]: 转发请求: GET /orders/detail/3
+2025-03-09 17:51:59 [INFO]: ::1 - - [09/Mar/2025:09:51:59 +0000] "GET /orders/detail/3 HTTP/1.1" 200 959 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:52:00 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:52:00 [INFO]: ::1 - - [09/Mar/2025:09:52:00 +0000] "GET /orders/detail/2 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:52:02 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:52:02 [INFO]: ::1 - - [09/Mar/2025:09:52:02 +0000] "GET /orders/detail/2 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:52:04 [INFO]: 转发请求: GET /orders/detail/3
+2025-03-09 17:52:04 [INFO]: ::1 - - [09/Mar/2025:09:52:04 +0000] "GET /orders/detail/3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:52:05 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:52:05 [INFO]: ::1 - - [09/Mar/2025:09:52:05 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:52:07 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:52:07 [INFO]: ::1 - - [09/Mar/2025:09:52:07 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:54:17 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:54:17 [INFO]: ::1 - - [09/Mar/2025:09:54:17 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:54:21 [INFO]: 转发请求: GET /orders/detail/2
+2025-03-09 17:54:21 [INFO]: ::1 - - [09/Mar/2025:09:54:21 +0000] "GET /orders/detail/2 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:16 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 17:55:17 [INFO]: ::1 - - [09/Mar/2025:09:55:17 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1370 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-09 17:55:22 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:55:22 [INFO]: ::1 - - [09/Mar/2025:09:55:22 +0000] "GET /orders/detail/1 HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:27 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:55:27 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:55:27 [INFO]: ::1 - - [09/Mar/2025:09:55:27 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:27 [INFO]: ::1 - - [09/Mar/2025:09:55:27 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:27 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:55:27 [INFO]: ::1 - - [09/Mar/2025:09:55:27 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:29 [INFO]: 转发请求: GET /orders/detail/1
+2025-03-09 17:55:29 [INFO]: ::1 - - [09/Mar/2025:09:55:29 +0000] "GET /orders/detail/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:33 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 17:55:33 [INFO]: ::1 - - [09/Mar/2025:09:55:33 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:36 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:55:36 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 17:55:36 [INFO]: ::1 - - [09/Mar/2025:09:55:36 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:36 [INFO]: ::1 - - [09/Mar/2025:09:55:36 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:36 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 17:55:36 [INFO]: ::1 - - [09/Mar/2025:09:55:36 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 17:55:39 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 17:55:39 [INFO]: ::1 - - [09/Mar/2025:09:55:39 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:01:09 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:01:09 [INFO]: ::1 - - [09/Mar/2025:10:01:09 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:01:15 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:01:15 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:01:15 [INFO]: ::1 - - [09/Mar/2025:10:01:15 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:01:15 [INFO]: ::1 - - [09/Mar/2025:10:01:15 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:01:15 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:01:15 [INFO]: ::1 - - [09/Mar/2025:10:01:15 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:01:41 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 18:01:41 [INFO]: ::1 - - [09/Mar/2025:10:01:41 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:03:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:03:49 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:03:49 [INFO]: ::1 - - [09/Mar/2025:10:03:49 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:03:49 [INFO]: ::1 - - [09/Mar/2025:10:03:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:03:49 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:03:49 [INFO]: ::1 - - [09/Mar/2025:10:03:49 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:05:02 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:05:02 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:05:02 [INFO]: ::1 - - [09/Mar/2025:10:05:02 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:05:02 [INFO]: ::1 - - [09/Mar/2025:10:05:02 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:05:02 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:05:02 [INFO]: ::1 - - [09/Mar/2025:10:05:02 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:06:30 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 18:06:30 [INFO]: ::1 - - [09/Mar/2025:10:06:30 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:06:32 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 18:06:32 [INFO]: ::1 - - [09/Mar/2025:10:06:32 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:08:46 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:08:46 [INFO]: ::1 - - [09/Mar/2025:10:08:46 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:08:53 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:08:53 [INFO]: ::1 - - [09/Mar/2025:10:08:53 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:00 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:09:00 [INFO]: ::1 - - [09/Mar/2025:10:09:00 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:44 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:09:44 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:09:44 [INFO]: ::1 - - [09/Mar/2025:10:09:44 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:44 [INFO]: ::1 - - [09/Mar/2025:10:09:44 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:44 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:09:44 [INFO]: ::1 - - [09/Mar/2025:10:09:44 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:56 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:09:56 [INFO]: ::1 - - [09/Mar/2025:10:09:56 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:57 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:09:57 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:09:57 [INFO]: ::1 - - [09/Mar/2025:10:09:57 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:57 [INFO]: ::1 - - [09/Mar/2025:10:09:57 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:09:57 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:09:57 [INFO]: ::1 - - [09/Mar/2025:10:09:57 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:05 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:05 [INFO]: ::1 - - [09/Mar/2025:10:10:05 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:08 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:08 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:10:08 [INFO]: ::1 - - [09/Mar/2025:10:10:08 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:08 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:08 [INFO]: ::1 - - [09/Mar/2025:10:10:08 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:08 [INFO]: ::1 - - [09/Mar/2025:10:10:08 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:12 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:12 [INFO]: ::1 - - [09/Mar/2025:10:10:12 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:13 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:10:13 [INFO]: ::1 - - [09/Mar/2025:10:10:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:13 [INFO]: ::1 - - [09/Mar/2025:10:10:13 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:13 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:13 [INFO]: ::1 - - [09/Mar/2025:10:10:13 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:42 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:42 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:10:42 [INFO]: ::1 - - [09/Mar/2025:10:10:42 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:42 [INFO]: ::1 - - [09/Mar/2025:10:10:42 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:10:42 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:10:42 [INFO]: ::1 - - [09/Mar/2025:10:10:42 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:11:28 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:11:28 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:11:28 [INFO]: ::1 - - [09/Mar/2025:10:11:28 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:11:28 [INFO]: ::1 - - [09/Mar/2025:10:11:28 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:11:28 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:11:28 [INFO]: ::1 - - [09/Mar/2025:10:11:28 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:12:46 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:12:46 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:12:46 [INFO]: ::1 - - [09/Mar/2025:10:12:46 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:12:46 [INFO]: ::1 - - [09/Mar/2025:10:12:46 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:12:46 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:12:46 [INFO]: ::1 - - [09/Mar/2025:10:12:46 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:13:01 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:13:01 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:13:01 [INFO]: ::1 - - [09/Mar/2025:10:13:01 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:13:01 [INFO]: ::1 - - [09/Mar/2025:10:13:01 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:13:01 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:13:01 [INFO]: ::1 - - [09/Mar/2025:10:13:01 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:13:19 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:13:19 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:13:19 [INFO]: ::1 - - [09/Mar/2025:10:13:19 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:13:19 [INFO]: ::1 - - [09/Mar/2025:10:13:19 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:13:19 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:13:19 [INFO]: ::1 - - [09/Mar/2025:10:13:19 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:14:02 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:14:02 [INFO]: ::1 - - [09/Mar/2025:10:14:02 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:14:25 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:14:25 [INFO]: ::1 - - [09/Mar/2025:10:14:25 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:14:27 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:14:27 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:14:27 [INFO]: ::1 - - [09/Mar/2025:10:14:27 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:14:27 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:14:27 [INFO]: ::1 - - [09/Mar/2025:10:14:27 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:14:27 [INFO]: ::1 - - [09/Mar/2025:10:14:27 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:18:24 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:18:24 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:18:25 [INFO]: ::1 - - [09/Mar/2025:10:18:25 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:18:25 [INFO]: ::1 - - [09/Mar/2025:10:18:25 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:18:25 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:18:25 [INFO]: ::1 - - [09/Mar/2025:10:18:25 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:18:55 [INFO]: 转发请求: PUT /orders/status/1
+2025-03-09 18:18:55 [INFO]: ::1 - - [09/Mar/2025:10:18:55 +0000] "PUT /orders/status/1 HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:20:02 [INFO]: 转发请求: PUT /orders/status/1
+2025-03-09 18:20:02 [INFO]: ::1 - - [09/Mar/2025:10:20:02 +0000] "PUT /orders/status/1?trackingNumber=213123243123&status=2 HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:20:02 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 18:20:02 [INFO]: ::1 - - [09/Mar/2025:10:20:02 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 1322 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:20:04 [INFO]: 转发请求: POST /orders/detail/1
+2025-03-09 18:20:04 [INFO]: ::1 - - [09/Mar/2025:10:20:04 +0000] "POST /orders/detail/1 HTTP/1.1" 200 1374 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:20:07 [INFO]: 转发请求: POST /orders/detail/2
+2025-03-09 18:20:07 [INFO]: ::1 - - [09/Mar/2025:10:20:07 +0000] "POST /orders/detail/2 HTTP/1.1" 200 915 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:20:09 [INFO]: 转发请求: POST /orders/detail/3
+2025-03-09 18:20:09 [INFO]: ::1 - - [09/Mar/2025:10:20:09 +0000] "POST /orders/detail/3 HTTP/1.1" 200 959 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:26:02 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:26:02 [INFO]: ::1 - - [09/Mar/2025:10:26:02 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:26:06 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:26:06 [INFO]: ::1 - - [09/Mar/2025:10:26:06 +0000] "POST /users/getAll HTTP/1.1" 200 1433 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:26:45 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:26:46 [INFO]: ::1 - - [09/Mar/2025:10:26:46 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:14 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:27:14 [INFO]: ::1 - - [09/Mar/2025:10:27:14 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:16 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:27:16 [INFO]: ::1 - - [09/Mar/2025:10:27:16 +0000] "POST /users/getAll HTTP/1.1" 200 1433 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:19 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:27:19 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:27:19 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 18:27:19 [INFO]: ::1 - - [09/Mar/2025:10:27:19 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:19 [INFO]: ::1 - - [09/Mar/2025:10:27:19 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:19 [INFO]: ::1 - - [09/Mar/2025:10:27:19 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:20 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:27:20 [INFO]: ::1 - - [09/Mar/2025:10:27:20 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 18:27:23 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 18:27:23 [INFO]: ::1 - - [09/Mar/2025:10:27:23 +0000] "POST /users/getAll HTTP/1.1" 200 1433 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 19:18:18 [INFO]: 转发请求: GET /menu/page
+2025-03-09 19:18:18 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 19:18:18 [INFO]: ::1 - - [09/Mar/2025:11:18:18 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 19:18:18 [INFO]: ::1 - - [09/Mar/2025:11:18:18 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 19:18:25 [INFO]: 转发请求: GET /menu/page
+2025-03-09 19:18:25 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 19:18:25 [INFO]: ::1 - - [09/Mar/2025:11:18:25 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 19:18:25 [INFO]: ::1 - - [09/Mar/2025:11:18:25 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 19:18:26 [INFO]: 转发请求: GET /menu/page
+2025-03-09 19:18:26 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 19:18:26 [INFO]: ::1 - - [09/Mar/2025:11:18:26 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 19:18:26 [INFO]: ::1 - - [09/Mar/2025:11:18:26 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:06:48 [INFO]: 转发请求: GET /menu/page
+2025-03-09 22:06:48 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 22:06:48 [INFO]: 转发请求: GET /menu/getAll
+2025-03-09 22:06:48 [INFO]: ::1 - - [09/Mar/2025:14:06:48 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:06:48 [INFO]: ::1 - - [09/Mar/2025:14:06:48 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:06:48 [INFO]: ::1 - - [09/Mar/2025:14:06:48 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:06:48 [INFO]: 转发请求: GET /menu/page
+2025-03-09 22:06:48 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 22:06:48 [INFO]: ::1 - - [09/Mar/2025:14:06:48 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:06:48 [INFO]: ::1 - - [09/Mar/2025:14:06:48 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:03 [INFO]: 转发请求: GET /menu/page
+2025-03-09 22:07:03 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 22:07:03 [INFO]: ::1 - - [09/Mar/2025:14:07:03 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:03 [INFO]: ::1 - - [09/Mar/2025:14:07:03 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:06 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 22:07:07 [INFO]: ::1 - - [09/Mar/2025:14:07:07 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:10 [INFO]: 转发请求: GET /products/getAll
+2025-03-09 22:07:10 [INFO]: 转发请求: GET /category/sublist
+2025-03-09 22:07:11 [INFO]: ::1 - - [09/Mar/2025:14:07:11 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:11 [INFO]: ::1 - - [09/Mar/2025:14:07:11 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:12 [INFO]: 转发请求: GET /category/getAll
+2025-03-09 22:07:12 [INFO]: ::1 - - [09/Mar/2025:14:07:12 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:14 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 22:07:14 [INFO]: ::1 - - [09/Mar/2025:14:07:14 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:28 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 22:07:28 [INFO]: ::1 - - [09/Mar/2025:14:07:28 +0000] "GET /orders/getAll?pageNum=1&pageSize=10&orderStatus=4 HTTP/1.1" 200 90 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:30 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 22:07:30 [INFO]: ::1 - - [09/Mar/2025:14:07:30 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:31 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 22:07:31 [INFO]: ::1 - - [09/Mar/2025:14:07:31 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:31 [INFO]: 转发请求: GET /menu/page
+2025-03-09 22:07:31 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 22:07:31 [INFO]: ::1 - - [09/Mar/2025:14:07:31 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:31 [INFO]: ::1 - - [09/Mar/2025:14:07:31 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:31 [INFO]: 转发请求: GET /menu/page
+2025-03-09 22:07:31 [INFO]: 转发请求: GET /menu/parents
+2025-03-09 22:07:31 [INFO]: ::1 - - [09/Mar/2025:14:07:31 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:31 [INFO]: ::1 - - [09/Mar/2025:14:07:31 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:33 [INFO]: 转发请求: POST /users/getAll
+2025-03-09 22:07:33 [INFO]: ::1 - - [09/Mar/2025:14:07:33 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:35 [INFO]: 转发请求: GET /products/getAll
+2025-03-09 22:07:35 [INFO]: 转发请求: GET /category/sublist
+2025-03-09 22:07:35 [INFO]: ::1 - - [09/Mar/2025:14:07:35 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:35 [INFO]: ::1 - - [09/Mar/2025:14:07:35 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:39 [INFO]: 转发请求: GET /orders/getAll
+2025-03-09 22:07:40 [INFO]: ::1 - - [09/Mar/2025:14:07:40 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:41 [INFO]: 转发请求: GET /products/getAll
+2025-03-09 22:07:41 [INFO]: 转发请求: GET /category/sublist
+2025-03-09 22:07:41 [INFO]: ::1 - - [09/Mar/2025:14:07:41 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-09 22:07:41 [INFO]: ::1 - - [09/Mar/2025:14:07:41 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
