@@ -12,6 +12,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2024-11-21
  */
 public interface IOrderItemAttributesService extends IService<OrderItemAttributes> {
-
+    int countOrdersByProductId(Integer productId);
 }
 

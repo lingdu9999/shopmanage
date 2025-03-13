@@ -27,4 +27,5 @@ public interface ICategoryService extends IService<Category> {
     boolean addOrUpdateCategory(CategoryDto categoryDto) ;
     boolean deleteCategory(Integer[] categoryId);
     Category getParentCategoryBySubcategoryId(Integer subcategoryId);
+    String getCateNameById(Integer subcategoryId);
 }

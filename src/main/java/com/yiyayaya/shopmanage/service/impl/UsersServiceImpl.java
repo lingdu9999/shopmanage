@@ -61,7 +61,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
       log.warn("用户登录失败: {}", username);
       throw new AuthException("该用户已被禁止登录");
     }
-    if(user.getRole() > 1){
+    if(user.getRole() > 2){
       log.warn("用户登录失败: {}", username);
       throw new AuthException("该用户没有权限");
     }
@@ -262,6 +262,12 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
       log.error("密码修改失败: {}", passwordUpdateDTO.getUserId(), e);
       throw new ServiceException("密码修改失败，请稍后重试");
     }
+  }
+
+  @Override
+  public String getUsernameById(Integer userId) {
+    Users user = usersMapper.selectById(userId);
+    return user != null ? user.getUsername() : null;
   }
 }
 

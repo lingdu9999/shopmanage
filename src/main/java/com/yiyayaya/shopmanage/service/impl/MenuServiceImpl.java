@@ -3,6 +3,7 @@ package com.yiyayaya.shopmanage.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yiyayaya.shopmanage.common.Pages;
 import com.yiyayaya.shopmanage.entity.Menu;
 import com.yiyayaya.shopmanage.exception.ServiceException;
@@ -22,14 +23,17 @@ import java.util.List;
  * @since 2024-11-21
  */
 @Service
-public class MenuServiceImpl implements IMenuService {
+public class MenuServiceImpl extends ServiceImpl<MenuMapper, Menu> implements IMenuService {
 
     @Autowired
     private MenuMapper menuMapper;
 
     @Override
-    public List<Menu> getAllMenus() {
+    public List<Menu> getAllMenus(Integer type) {
         QueryWrapper<Menu> queryWrapper = new QueryWrapper<>();
+        if (type == 1) {
+            queryWrapper.ne("parent_id", 0);
+        }
         return menuMapper.selectList(queryWrapper);
     }
 

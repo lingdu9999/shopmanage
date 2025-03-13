@@ -3,18 +3,17 @@ package com.yiyayaya.shopmanage.controller;
 import com.yiyayaya.shopmanage.common.Pages;
 import com.yiyayaya.shopmanage.common.Result;
 import com.yiyayaya.shopmanage.entity.Category;
+import com.yiyayaya.shopmanage.entity.Subcategories;
 import com.yiyayaya.shopmanage.entity.Dto.CategoryDto;
+import com.yiyayaya.shopmanage.entity.UserActivity;
 import com.yiyayaya.shopmanage.entity.vo.CategoryVo;
 import com.yiyayaya.shopmanage.service.ICategoryService;
+import com.yiyayaya.shopmanage.service.IUserActivityService;
+import com.yiyayaya.shopmanage.service.IUsersService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-import com.yiyayaya.shopmanage.entity.Subcategories;
+import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
@@ -33,17 +32,21 @@ public class CategoryController {
     @Autowired
     private ICategoryService categoryService;
 
+    @Autowired
+    private IUserActivityService userActivityService;
+
+    @Autowired
+    private IUsersService usersService;
+
     @GetMapping("/list")
     public Result<List<CategoryVo>> list() {
         List<CategoryVo> categories = categoryService.getAllCategory();
-
         return Result.success(categories);
     }
 
     @GetMapping("/sublist")
     public Result<List<Subcategories>> sublist() {
         List<Subcategories> Subcategories = categoryService.getAllSubCategory();
-
         return Result.success(Subcategories);
     }
 
@@ -72,20 +75,52 @@ public class CategoryController {
     }
 
     @PostMapping("/add")
-    public Result<String> addCategory(@RequestBody CategoryDto categoryDto) {
+    public Result<String> addCategory(@RequestBody CategoryDto categoryDto, @RequestHeader("user") Integer userId) {
         boolean success = categoryService.addOrUpdateCategory(categoryDto);
+        if (success) {
+            // 记录用户添加分类行为
+            UserActivity activity = new UserActivity();
+            activity.setUserId(userId);
+            activity.setUsername(usersService.getUsernameById(userId));
+            activity.setAction("添加分类");
+            activity.setDetails("用户 " + usersService.getUsernameById(userId) + " 添加了分类: " + categoryDto.getName());
+            activity.setTimestamp(LocalDateTime.now());
+            userActivityService.recordActivity(activity);
+        }
         return success ? Result.success("添加成功") : Result.error(500, "添加失败");
     }
 
     @PostMapping("/update")
-    public Result<String> updateCategory(@RequestBody CategoryDto categoryDto) {
+    public Result<String> updateCategory(@RequestBody CategoryDto categoryDto, @RequestHeader("user") Integer userId) {
         boolean success = categoryService.addOrUpdateCategory(categoryDto);
+        if (success) {
+            // 记录用户更新分类行为
+            UserActivity activity = new UserActivity();
+            activity.setUserId(userId);
+            activity.setUsername(usersService.getUsernameById(userId));
+            activity.setAction("更新分类");
+            activity.setDetails("用户 " + usersService.getUsernameById(userId) + " 更新了分类 分类名为 " + categoryDto.getName() + " 的分类信息");
+            activity.setTimestamp(LocalDateTime.now());
+            userActivityService.recordActivity(activity);
+        }
         return success ? Result.success("更新成功") : Result.error(500, "更新失败");
     }
 
     @PostMapping("/delete")
-    public Result<String> deleteCategory(@RequestBody Integer[] categoryId) {
+    public Result<String> deleteCategory(@RequestBody Integer[] categoryId, @RequestHeader("user") Integer userId) {
         boolean success = categoryService.deleteCategory(categoryId);
+        if (success) {
+            // 记录用户删除分类行为
+            for (Integer id : categoryId) {
+                UserActivity activity = new UserActivity();
+                activity.setUserId(userId);
+                activity.setUsername(usersService.getUsernameById(userId));
+                activity.setAction("删除分类");
+                activity.setDetails("用户 " + usersService.getUsernameById(userId) + " 删除了分类名为 " + id + " 的分类");
+                activity.setTimestamp(LocalDateTime.now());
+                userActivityService.recordActivity(activity);
+            }
+        }
         return success ? Result.success("删除成功") : Result.error(500, "删除失败");
     }
 }

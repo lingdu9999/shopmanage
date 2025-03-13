@@ -124,12 +124,19 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
         boolean categorySaved = false;
         System.out.println(category.getCategoryId());
 
+        QueryWrapper<Category> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("name", category.getName());
+
         if (category.getCategoryId() != null ){
-            QueryWrapper<Category> queryWrapper = new QueryWrapper<>();
-            queryWrapper.eq("name", category.getName()).ne("category_id", category.getCategoryId());
-            if (categoryMapper.selectCount(queryWrapper) > 0) {
-                throw new ServiceException("主分类名已存在");
-            }
+            queryWrapper.ne("category_id", category.getCategoryId());
+        }
+
+        if (categoryMapper.selectCount(queryWrapper) > 0) {
+            throw new ServiceException("主分类名已存在");
+        }
+        
+        if (category.getCategoryId() != null ){
+
             categorySaved = categoryMapper.updateCategoryById(category);
         }else {
             categorySaved = categoryMapper.insert(category) > 0;
@@ -169,5 +176,10 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
         }catch (Exception e){
             throw new ServiceException(e.getMessage());
         }
+    }
+
+    @Override
+    public String getCateNameById(Integer subcategoryId) {
+        return categoryMapper.selectById(subcategoryId).getName();
     }
 }

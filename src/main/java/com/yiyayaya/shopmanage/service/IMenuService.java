@@ -1,5 +1,6 @@
 package com.yiyayaya.shopmanage.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.yiyayaya.shopmanage.common.Pages;
 import com.yiyayaya.shopmanage.entity.Menu;
 
@@ -13,13 +14,13 @@ import java.util.List;
  * @author yourname
  * @since 2024-11-21
  */
-public interface IMenuService {
+public interface IMenuService extends IService<Menu> {
     /**
      * 获取所有菜单
      * 
      * @return 菜单列表
      */
-    List<Menu> getAllMenus();
+    List<Menu> getAllMenus(Integer type);
 
     /**
      * 分页查询菜单

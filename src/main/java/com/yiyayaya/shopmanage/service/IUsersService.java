@@ -30,4 +30,11 @@ public interface IUsersService extends IService<Users> {
   UserVO getUserById(Integer userId);
 
   boolean updatePassword(PasswordUpdateDTO passwordUpdateDTO, Integer currentUserId);
+
+  /**
+   * 根据用户ID获取用户名
+   * @param userId 用户ID
+   * @return 用户名
+   */
+  String getUsernameById(Integer userId);
 }

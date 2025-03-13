@@ -9,6 +9,7 @@ import com.yiyayaya.shopmanage.mapper.ProductAttributesMapper;
 import com.yiyayaya.shopmanage.mapper.ProductImagesMapper;
 import com.yiyayaya.shopmanage.mapper.ProductsMapper;
 import com.yiyayaya.shopmanage.mapper.SubcategoriesMapper;
+import com.yiyayaya.shopmanage.service.IOrderItemAttributesService;
 import com.yiyayaya.shopmanage.service.IProductsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -49,6 +50,9 @@ public class ProductsServiceImpl extends ServiceImpl<ProductsMapper, Products> i
 
     @Autowired
     private ProductAttributesMapper productAttributesMapper;
+
+    @Autowired
+    private IOrderItemAttributesService orderItemAttributesService;
 
     private static final Logger logger = LoggerFactory.getLogger(ProductsServiceImpl.class);
 
@@ -136,6 +140,8 @@ public class ProductsServiceImpl extends ServiceImpl<ProductsMapper, Products> i
                 throw new ServiceException("Product with ID " + products.getProductId() + " not found.");
             }
 
+            
+
             // Check if the status is being changed from "下架 (3)" to "上架 (1)"
             if (existingProduct.getStatus() == 3 && products.getStatus() == 1) {
                 // Set status to "审核状态 (2)"
@@ -202,8 +208,14 @@ public class ProductsServiceImpl extends ServiceImpl<ProductsMapper, Products> i
             // 2. Iterate through the products and check if they are in "上架 (1)" status
             for (Products product : productsToDelete) {
                 if (product.getStatus() == 1) {
-                    throw new ServiceException("Product with ID " + product.getProductId() + " is currently listed. Please unlist it first.");
+                    throw new ServiceException("该产品 " + product.getName() + "已上架，请下架后再进行操作");
                 }
+                // 3. Check if the product is associated with any orders
+                int orderCount = orderItemAttributesService.countOrdersByProductId(product.getProductId());
+                if (orderCount > 0) {
+                    throw new ServiceException("该产品 " + product.getName() + "已被订单关联，请解除关联后再进行操作");
+                }
+                
             }
 
             // 1. Delete product images
@@ -214,6 +226,7 @@ public class ProductsServiceImpl extends ServiceImpl<ProductsMapper, Products> i
             // 2. Delete product attributes
             QueryWrapper<ProductAttributes> attributeQueryWrapper = new QueryWrapper<>();
             attributeQueryWrapper.in("product_id", ids);
+            
             productAttributesMapper.delete(attributeQueryWrapper);
 
             // 3. Delete the products
