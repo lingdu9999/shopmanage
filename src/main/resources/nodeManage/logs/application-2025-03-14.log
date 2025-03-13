@@ -1,0 +1,738 @@
+2025-03-14 00:02:15 [INFO]: 转发请求: GET /products/getAll
+2025-03-14 00:02:16 [INFO]: 转发请求: GET /category/sublist
+2025-03-14 00:02:16 [INFO]: 转发请求: GET /orders/getAll
+2025-03-14 00:02:16 [INFO]: ::1 - - [13/Mar/2025:16:02:16 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:02:16 [INFO]: ::1 - - [13/Mar/2025:16:02:16 +0000] "GET /orders/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:02:16 [INFO]: ::1 - - [13/Mar/2025:16:02:16 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name=&status= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:02:19 [INFO]: 转发请求: GET /menu/page
+2025-03-14 00:02:19 [INFO]: 转发请求: GET /menu/parents
+2025-03-14 00:02:19 [INFO]: ::1 - - [13/Mar/2025:16:02:19 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:02:19 [INFO]: ::1 - - [13/Mar/2025:16:02:19 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:02:20 [INFO]: 转发请求: GET /users/getUserById/1
+2025-03-14 00:02:20 [INFO]: ::1 - - [13/Mar/2025:16:02:20 +0000] "GET /users/getUserById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:36 [INFO]: 转发请求: GET /users/getUserById/1
+2025-03-14 00:38:36 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 00:38:36 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:38:36 [INFO]: ::1 - - [13/Mar/2025:16:38:36 +0000] "GET /users/getUserById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:36 [INFO]: 转发请求: GET /users/getUserById/1
+2025-03-14 00:38:36 [INFO]: ::1 - - [13/Mar/2025:16:38:36 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:36 [INFO]: ::1 - - [13/Mar/2025:16:38:36 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:36 [INFO]: ::1 - - [13/Mar/2025:16:38:36 +0000] "GET /users/getUserById/1 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:37 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:38:37 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:38:37 [INFO]: ::1 - - [13/Mar/2025:16:38:37 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:37 [INFO]: ::1 - - [13/Mar/2025:16:38:37 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:38 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:38:38 [INFO]: ::1 - - [13/Mar/2025:16:38:38 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:38:46 [INFO]: 转发请求: POST /roles/updatePermissions
+2025-03-14 00:38:46 [INFO]: ::1 - - [13/Mar/2025:16:38:46 +0000] "POST /roles/updatePermissions?roleId= HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:43:20 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:43:20 [INFO]: ::1 - - [13/Mar/2025:16:43:20 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:27 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:44:27 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:44:27 [INFO]: ::1 - - [13/Mar/2025:16:44:27 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:27 [INFO]: ::1 - - [13/Mar/2025:16:44:27 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:28 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:44:28 [INFO]: ::1 - - [13/Mar/2025:16:44:28 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:35 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:44:35 [INFO]: ::1 - - [13/Mar/2025:16:44:35 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:59 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:44:59 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:44:59 [INFO]: ::1 - - [13/Mar/2025:16:44:59 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:59 [INFO]: ::1 - - [13/Mar/2025:16:44:59 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:44:59 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:44:59 [INFO]: ::1 - - [13/Mar/2025:16:44:59 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:47:08 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:47:08 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:47:08 [INFO]: ::1 - - [13/Mar/2025:16:47:08 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:47:08 [INFO]: ::1 - - [13/Mar/2025:16:47:08 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:47:08 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:47:08 [INFO]: ::1 - - [13/Mar/2025:16:47:08 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:49:29 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:49:29 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:49:29 [INFO]: ::1 - - [13/Mar/2025:16:49:29 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:49:29 [INFO]: ::1 - - [13/Mar/2025:16:49:29 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:49:29 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:49:29 [INFO]: ::1 - - [13/Mar/2025:16:49:29 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:49:39 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:49:39 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 00:49:39 [INFO]: ::1 - - [13/Mar/2025:16:49:39 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:49:39 [INFO]: ::1 - - [13/Mar/2025:16:49:39 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:49:39 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:49:39 [INFO]: ::1 - - [13/Mar/2025:16:49:39 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:56:44 [INFO]: 转发请求: POST /roles/add
+2025-03-14 00:56:44 [INFO]: ::1 - - [13/Mar/2025:16:56:44 +0000] "POST /roles/add HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:57:41 [INFO]: 转发请求: POST /roles/updatePermissions
+2025-03-14 00:57:41 [INFO]: ::1 - - [13/Mar/2025:16:57:41 +0000] "POST /roles/updatePermissions?roleId=1 HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:57:41 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:57:41 [INFO]: ::1 - - [13/Mar/2025:16:57:41 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 4898 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:57:41 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:57:41 [INFO]: ::1 - - [13/Mar/2025:16:57:41 +0000] "GET /permissions/getByUser HTTP/1.1" 200 2795 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:58:01 [INFO]: 转发请求: POST /roles/updatePermissions
+2025-03-14 00:58:01 [INFO]: ::1 - - [13/Mar/2025:16:58:01 +0000] "POST /roles/updatePermissions?roleId=1 HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:58:01 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 00:58:01 [INFO]: ::1 - - [13/Mar/2025:16:58:01 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 5017 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:58:01 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 00:58:01 [INFO]: ::1 - - [13/Mar/2025:16:58:01 +0000] "GET /permissions/getByUser HTTP/1.1" 200 2914 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 00:58:41 [INFO]: 转发请求: POST /roles/add
+2025-03-14 00:58:41 [INFO]: ::1 - - [13/Mar/2025:16:58:41 +0000] "POST /roles/add HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:01:09 [INFO]: 转发请求: POST /roles/add
+2025-03-14 01:01:09 [INFO]: ::1 - - [13/Mar/2025:17:01:09 +0000] "POST /roles/add HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:03:30 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:03:30 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:03:31 [INFO]: ::1 - - [13/Mar/2025:17:03:31 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:03:31 [INFO]: ::1 - - [13/Mar/2025:17:03:31 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:03:31 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:03:31 [INFO]: ::1 - - [13/Mar/2025:17:03:31 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:03:45 [INFO]: 转发请求: POST /roles/add
+2025-03-14 01:03:45 [INFO]: ::1 - - [13/Mar/2025:17:03:45 +0000] "POST /roles/add HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:07:32 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:07:32 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:07:32 [INFO]: ::1 - - [13/Mar/2025:17:07:32 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:07:32 [INFO]: ::1 - - [13/Mar/2025:17:07:32 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:07:32 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:07:32 [INFO]: ::1 - - [13/Mar/2025:17:07:32 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:07:46 [INFO]: 转发请求: POST /roles/add
+2025-03-14 01:07:49 [INFO]: ::1 - - [13/Mar/2025:17:07:49 +0000] "POST /roles/add HTTP/1.1" 200 572 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:08:34 [INFO]: 转发请求: POST /roles/add
+2025-03-14 01:08:39 [INFO]: ::1 - - [13/Mar/2025:17:08:39 +0000] "POST /roles/add HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:08:39 [ERROR]: 请求转发错误: timeout of 5000ms exceeded
+2025-03-14 01:08:51 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:08:51 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:08:56 [ERROR]: 请求转发错误: timeout of 5000ms exceeded
+2025-03-14 01:08:56 [INFO]: ::1 - - [13/Mar/2025:17:08:56 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 63 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:08:56 [ERROR]: 请求转发错误: timeout of 5000ms exceeded
+2025-03-14 01:08:56 [INFO]: ::1 - - [13/Mar/2025:17:08:56 +0000] "GET /permissions/getAll HTTP/1.1" 200 63 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /permissions/getAll HTTP/1.1" 200 2914 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 5017 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:00 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:09:00 [INFO]: ::1 - - [13/Mar/2025:17:09:00 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:09 [INFO]: 转发请求: POST /roles/add
+2025-03-14 01:09:12 [INFO]: ::1 - - [13/Mar/2025:17:09:12 +0000] "POST /roles/add HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:12 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:09:12 [INFO]: ::1 - - [13/Mar/2025:17:09:12 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 5589 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:09:12 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:09:12 [INFO]: ::1 - - [13/Mar/2025:17:09:12 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:10:02 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:10:02 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:10:02 [INFO]: ::1 - - [13/Mar/2025:17:10:02 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:10:02 [INFO]: ::1 - - [13/Mar/2025:17:10:02 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:10:02 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:10:02 [INFO]: ::1 - - [13/Mar/2025:17:10:02 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:11:09 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:11:09 [INFO]: ::1 - - [13/Mar/2025:17:11:09 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:35 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:12:35 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:12:35 [INFO]: ::1 - - [13/Mar/2025:17:12:35 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:35 [INFO]: ::1 - - [13/Mar/2025:17:12:35 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:35 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:12:35 [INFO]: ::1 - - [13/Mar/2025:17:12:35 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:49 [INFO]: 转发请求: GET /roles/add
+2025-03-14 01:12:49 [INFO]: ::1 - - [13/Mar/2025:17:12:49 +0000] "GET /roles/add?roleId=3 HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:12:51 [INFO]: 转发请求: GET /roles/add
+2025-03-14 01:12:51 [INFO]: ::1 - - [13/Mar/2025:17:12:51 +0000] "GET /roles/add?roleId=3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:01 [INFO]: 转发请求: GET /roles/add
+2025-03-14 01:13:01 [INFO]: ::1 - - [13/Mar/2025:17:13:01 +0000] "GET /roles/add?roleId=3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:10 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:10 [INFO]: ::1 - - [13/Mar/2025:17:13:10 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:14 [INFO]: 转发请求: GET /roles/delete
+2025-03-14 01:13:14 [INFO]: ::1 - - [13/Mar/2025:17:13:14 +0000] "GET /roles/delete?roleId=3 HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:14 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:13:14 [INFO]: ::1 - - [13/Mar/2025:17:13:14 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 5017 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:14 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:14 [INFO]: ::1 - - [13/Mar/2025:17:13:14 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:13:30 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:13:30 [INFO]: ::1 - - [13/Mar/2025:17:13:30 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:14:34 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:14:34 [INFO]: ::1 - - [13/Mar/2025:17:14:34 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:15:14 [ERROR]: Token 无效或已过期
+2025-03-14 01:15:14 [INFO]: ::1 - - [13/Mar/2025:17:15:14 +0000] "GET /users/activities HTTP/1.1" 200 60 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-14 01:15:19 [INFO]: 登录请求: admin
+2025-03-14 01:15:19 [INFO]: 登录成功: {"userId":1,"username":"admin"}
+2025-03-14 01:15:19 [INFO]: ::ffff:127.0.0.1 - - [13/Mar/2025:17:15:19 +0000] "POST /login HTTP/1.1" 200 341 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-14 01:15:28 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:15:28 [INFO]: ::1 - - [13/Mar/2025:17:15:28 +0000] "GET /users/activities HTTP/1.1" 200 1661 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-14 01:16:16 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:16:16 [INFO]: ::1 - - [13/Mar/2025:17:16:16 +0000] "GET /users/activities HTTP/1.1" 200 1672 "-" "PostmanRuntime-ApipostRuntime/1.1.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:21:07 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:21:07 [INFO]: ::1 - - [13/Mar/2025:17:21:07 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:15 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:22:15 [INFO]: ::1 - - [13/Mar/2025:17:22:15 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:26 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:22:26 [INFO]: 转发请求: GET /menu/parents
+2025-03-14 01:22:26 [INFO]: ::1 - - [13/Mar/2025:17:22:26 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:26 [INFO]: ::1 - - [13/Mar/2025:17:22:26 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:33 [INFO]: 转发请求: GET /menu/parents
+2025-03-14 01:22:33 [INFO]: ::1 - - [13/Mar/2025:17:22:33 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:52 [INFO]: 转发请求: POST /menu/update
+2025-03-14 01:22:52 [INFO]: ::1 - - [13/Mar/2025:17:22:52 +0000] "POST /menu/update HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:52 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:22:52 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:22:52 [INFO]: ::1 - - [13/Mar/2025:17:22:52 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:52 [INFO]: ::1 - - [13/Mar/2025:17:22:52 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 200 1755 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:56 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:22:56 [INFO]: ::1 - - [13/Mar/2025:17:22:56 +0000] "GET /menu/page?pageNum=2&pageSize=15&label= HTTP/1.1" 200 210 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:59 [INFO]: 转发请求: POST /menu/status
+2025-03-14 01:22:59 [INFO]: ::1 - - [13/Mar/2025:17:22:59 +0000] "POST /menu/status HTTP/1.1" 200 60 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:59 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:22:59 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:22:59 [INFO]: ::1 - - [13/Mar/2025:17:22:59 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:22:59 [INFO]: ::1 - - [13/Mar/2025:17:22:59 +0000] "GET /menu/page?pageNum=2&pageSize=15&label= HTTP/1.1" 200 209 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:00 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:23:00 [INFO]: ::1 - - [13/Mar/2025:17:23:00 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:04 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:23:04 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:23:04 [INFO]: ::1 - - [13/Mar/2025:17:23:04 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:04 [INFO]: 转发请求: GET /menu/parents
+2025-03-14 01:23:04 [INFO]: ::1 - - [13/Mar/2025:17:23:04 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:04 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:23:04 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:23:04 [INFO]: ::1 - - [13/Mar/2025:17:23:04 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:04 [INFO]: ::1 - - [13/Mar/2025:17:23:04 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:04 [INFO]: 转发请求: GET /menu/parents
+2025-03-14 01:23:04 [INFO]: ::1 - - [13/Mar/2025:17:23:04 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:04 [INFO]: ::1 - - [13/Mar/2025:17:23:04 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:12 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:23:12 [INFO]: ::1 - - [13/Mar/2025:17:23:12 +0000] "GET /menu/page?pageNum=2&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:17 [INFO]: 转发请求: GET /menu/page
+2025-03-14 01:23:17 [INFO]: ::1 - - [13/Mar/2025:17:23:17 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:23:59 [INFO]: 转发请求: POST /users/getAll
+2025-03-14 01:23:59 [INFO]: ::1 - - [13/Mar/2025:17:23:59 +0000] "POST /users/getAll HTTP/1.1" 200 1756 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:00 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:24:00 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:00 [INFO]: ::1 - - [13/Mar/2025:17:24:00 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:00 [INFO]: ::1 - - [13/Mar/2025:17:24:00 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:00 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:00 [INFO]: ::1 - - [13/Mar/2025:17:24:00 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:02 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:02 [INFO]: ::1 - - [13/Mar/2025:17:24:02 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:02 [INFO]: 转发请求: GET /menu/getList
+2025-03-14 01:24:02 [INFO]: ::1 - - [13/Mar/2025:17:24:02 +0000] "GET /menu/getList HTTP/1.1" 200 1208 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:34 [INFO]: 转发请求: POST /permissions/add
+2025-03-14 01:24:34 [INFO]: ::1 - - [13/Mar/2025:17:24:34 +0000] "POST /permissions/add HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:34 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:34 [INFO]: ::1 - - [13/Mar/2025:17:24:34 +0000] "GET /permissions/getAll HTTP/1.1" 200 3056 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:34 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:34 [INFO]: ::1 - - [13/Mar/2025:17:24:34 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:40 [INFO]: 转发请求: POST /roles/updatePermissions
+2025-03-14 01:24:41 [INFO]: ::1 - - [13/Mar/2025:17:24:41 +0000] "POST /roles/updatePermissions?roleId=1 HTTP/1.1" 200 44 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:41 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:24:41 [INFO]: ::1 - - [13/Mar/2025:17:24:41 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 200 5159 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:41 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:41 [INFO]: ::1 - - [13/Mar/2025:17:24:41 +0000] "GET /permissions/getByUser HTTP/1.1" 200 3056 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /menu/getAll HTTP/1.1" 200 1081 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:49 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:49 [INFO]: ::1 - - [13/Mar/2025:17:24:49 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:50 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:24:50 [INFO]: ::1 - - [13/Mar/2025:17:24:50 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 200 1672 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:57 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:24:57 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:24:57 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:57 [INFO]: ::1 - - [13/Mar/2025:17:24:57 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:57 [INFO]: ::1 - - [13/Mar/2025:17:24:57 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:57 [INFO]: ::1 - - [13/Mar/2025:17:24:57 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:57 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:57 [INFO]: ::1 - - [13/Mar/2025:17:24:57 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:58 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:24:58 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:24:58 [INFO]: ::1 - - [13/Mar/2025:17:24:58 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:58 [INFO]: ::1 - - [13/Mar/2025:17:24:58 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:58 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:24:58 [INFO]: ::1 - - [13/Mar/2025:17:24:58 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:24:58 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:24:58 [INFO]: ::1 - - [13/Mar/2025:17:24:58 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:36 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:25:36 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:25:36 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:25:36 [INFO]: ::1 - - [13/Mar/2025:17:25:36 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:36 [INFO]: ::1 - - [13/Mar/2025:17:25:36 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:36 [INFO]: ::1 - - [13/Mar/2025:17:25:36 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:36 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:25:36 [INFO]: ::1 - - [13/Mar/2025:17:25:36 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:38 [INFO]: 转发请求: GET /roles/getAll
+2025-03-14 01:25:38 [INFO]: 转发请求: GET /permissions/getAll
+2025-03-14 01:25:38 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:25:38 [INFO]: ::1 - - [13/Mar/2025:17:25:38 +0000] "GET /permissions/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:38 [INFO]: ::1 - - [13/Mar/2025:17:25:38 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:38 [INFO]: ::1 - - [13/Mar/2025:17:25:38 +0000] "GET /roles/getAll?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:38 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:25:38 [INFO]: ::1 - - [13/Mar/2025:17:25:38 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:40 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:25:40 [INFO]: ::1 - - [13/Mar/2025:17:25:40 +0000] "GET /users/activities?pageNum=2&pageSize=10 HTTP/1.1" 200 1326 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:41 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:25:41 [INFO]: ::1 - - [13/Mar/2025:17:25:41 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:46 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:25:46 [INFO]: ::1 - - [13/Mar/2025:17:25:46 +0000] "GET /users/activities?pageNum=2&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:25:48 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:25:48 [INFO]: ::1 - - [13/Mar/2025:17:25:48 +0000] "GET /users/activities?pageNum=1&pageSize=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:26:17 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:26:17 [INFO]: ::1 - - [13/Mar/2025:17:26:17 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 200 1672 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:26:27 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:26:27 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:26:27 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:26:27 [INFO]: ::1 - - [13/Mar/2025:17:26:27 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:26:27 [INFO]: ::1 - - [13/Mar/2025:17:26:27 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:26:27 [INFO]: ::1 - - [13/Mar/2025:17:26:27 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:26:27 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:26:27 [INFO]: ::1 - - [13/Mar/2025:17:26:27 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:21 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:21 [INFO]: ::1 - - [13/Mar/2025:17:27:21 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:23 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:23 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:27:23 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:27:23 [INFO]: ::1 - - [13/Mar/2025:17:27:23 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:23 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:23 [INFO]: ::1 - - [13/Mar/2025:17:27:23 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:23 [INFO]: ::1 - - [13/Mar/2025:17:27:23 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:23 [INFO]: ::1 - - [13/Mar/2025:17:27:23 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:28 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:28 [INFO]: ::1 - - [13/Mar/2025:17:27:28 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:43 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:43 [INFO]: ::1 - - [13/Mar/2025:17:27:43 +0000] "GET /users/activities?pageNum=2&pageSize=10&username= HTTP/1.1" 200 1326 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:44 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:44 [INFO]: ::1 - - [13/Mar/2025:17:27:44 +0000] "GET /users/activities?pageNum=1&pageSize=10&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:27:50 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:27:50 [INFO]: ::1 - - [13/Mar/2025:17:27:50 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 200 2908 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:31:46 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:31:46 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:31:46 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:31:46 [INFO]: ::1 - - [13/Mar/2025:17:31:46 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:31:46 [INFO]: ::1 - - [13/Mar/2025:17:31:46 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:31:46 [INFO]: ::1 - - [13/Mar/2025:17:31:46 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:31:46 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:31:46 [INFO]: ::1 - - [13/Mar/2025:17:31:46 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:31:49 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:31:49 [INFO]: ::1 - - [13/Mar/2025:17:31:49 +0000] "GET /users/activities?pageNum=1&pageSize=20&username=admin HTTP/1.1" 200 2908 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:31:58 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:31:58 [INFO]: ::1 - - [13/Mar/2025:17:31:58 +0000] "GET /users/activities?pageNum=1&pageSize=20&username=test HTTP/1.1" 200 90 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:32:00 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:32:00 [INFO]: ::1 - - [13/Mar/2025:17:32:00 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:32:03 [INFO]: 转发请求: GET /products/getAll
+2025-03-14 01:32:03 [INFO]: 转发请求: GET /category/sublist
+2025-03-14 01:32:03 [INFO]: ::1 - - [13/Mar/2025:17:32:03 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:32:03 [INFO]: ::1 - - [13/Mar/2025:17:32:03 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name=&status= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:36 [INFO]: 转发请求: GET /products/getAll
+2025-03-14 01:36:36 [INFO]: 转发请求: GET /category/sublist
+2025-03-14 01:36:36 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:36:36 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:36:36 [INFO]: ::1 - - [13/Mar/2025:17:36:36 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:36 [INFO]: 转发请求: GET /category/sublist
+2025-03-14 01:36:36 [INFO]: ::1 - - [13/Mar/2025:17:36:36 +0000] "GET /category/sublist HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:36 [INFO]: ::1 - - [13/Mar/2025:17:36:36 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:36 [INFO]: ::1 - - [13/Mar/2025:17:36:36 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:36 [INFO]: ::1 - - [13/Mar/2025:17:36:36 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name=&status= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:36 [INFO]: 转发请求: GET /products/getAll
+2025-03-14 01:36:36 [INFO]: ::1 - - [13/Mar/2025:17:36:36 +0000] "GET /products/getAll?pageNum=1&pageSize=10&name=&status= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:38 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:36:38 [INFO]: ::1 - - [13/Mar/2025:17:36:38 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:52 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:36:52 [INFO]: ::1 - - [13/Mar/2025:17:36:52 +0000] "POST /category/add HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:52 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:36:52 [INFO]: ::1 - - [13/Mar/2025:17:36:52 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3701 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:36:56 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:36:56 [INFO]: ::1 - - [13/Mar/2025:17:36:56 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 200 3053 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:37:03 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:37:03 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:37:03 [INFO]: ::1 - - [13/Mar/2025:17:37:03 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:37:03 [INFO]: ::1 - - [13/Mar/2025:17:37:03 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:37:09 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:37:09 [INFO]: ::1 - - [13/Mar/2025:17:37:09 +0000] "POST /category/delete HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:37:20 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:37:20 [INFO]: ::1 - - [13/Mar/2025:17:37:20 +0000] "POST /category/delete HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:35 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:38:35 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:38:35 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:38:35 [INFO]: ::1 - - [13/Mar/2025:17:38:35 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:35 [INFO]: ::1 - - [13/Mar/2025:17:38:35 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:35 [INFO]: ::1 - - [13/Mar/2025:17:38:35 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:35 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:38:35 [INFO]: ::1 - - [13/Mar/2025:17:38:35 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:40 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:38:40 [INFO]: ::1 - - [13/Mar/2025:17:38:40 +0000] "POST /category/delete HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:48 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:38:48 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:38:48 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:38:48 [INFO]: ::1 - - [13/Mar/2025:17:38:48 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:48 [INFO]: ::1 - - [13/Mar/2025:17:38:48 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:48 [INFO]: ::1 - - [13/Mar/2025:17:38:48 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:48 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:38:48 [INFO]: ::1 - - [13/Mar/2025:17:38:48 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:38:56 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:38:56 [INFO]: ::1 - - [13/Mar/2025:17:38:56 +0000] "POST /category/delete HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:39:36 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:39:36 [INFO]: ::1 - - [13/Mar/2025:17:39:36 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:39:40 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:39:40 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:39:40 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:39:40 [INFO]: ::1 - - [13/Mar/2025:17:39:40 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:39:40 [INFO]: ::1 - - [13/Mar/2025:17:39:40 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:39:40 [INFO]: ::1 - - [13/Mar/2025:17:39:40 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:39:40 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:39:40 [INFO]: ::1 - - [13/Mar/2025:17:39:40 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:39:48 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:39:48 [INFO]: ::1 - - [13/Mar/2025:17:39:48 +0000] "POST /category/delete HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:40:27 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:40:27 [INFO]: ::1 - - [13/Mar/2025:17:40:27 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:41:10 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:41:10 [INFO]: ::1 - - [13/Mar/2025:17:41:10 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:42:41 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:42:41 [INFO]: ::1 - - [13/Mar/2025:17:42:41 +0000] "POST /category/delete HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:42:41 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:42:41 [INFO]: ::1 - - [13/Mar/2025:17:42:41 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3589 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:43:48 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:43:48 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:43:48 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:43:48 [INFO]: ::1 - - [13/Mar/2025:17:43:48 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:43:48 [INFO]: ::1 - - [13/Mar/2025:17:43:48 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:43:48 [INFO]: ::1 - - [13/Mar/2025:17:43:48 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:43:48 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:43:48 [INFO]: ::1 - - [13/Mar/2025:17:43:48 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:08 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:45:08 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:45:08 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:45:08 [INFO]: ::1 - - [13/Mar/2025:17:45:08 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:08 [INFO]: ::1 - - [13/Mar/2025:17:45:08 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:08 [INFO]: ::1 - - [13/Mar/2025:17:45:08 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:08 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:45:08 [INFO]: ::1 - - [13/Mar/2025:17:45:08 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:11 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:45:11 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:45:11 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:45:11 [INFO]: ::1 - - [13/Mar/2025:17:45:11 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:11 [INFO]: ::1 - - [13/Mar/2025:17:45:11 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:11 [INFO]: ::1 - - [13/Mar/2025:17:45:11 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:45:11 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:45:11 [INFO]: ::1 - - [13/Mar/2025:17:45:11 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:46:25 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:46:25 [INFO]: ::1 - - [13/Mar/2025:17:46:25 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:46:49 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:46:49 [INFO]: ::1 - - [13/Mar/2025:17:46:49 +0000] "POST /category/delete HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:46:49 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:46:49 [INFO]: ::1 - - [13/Mar/2025:17:46:49 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3415 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:46:57 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:46:57 [INFO]: ::1 - - [13/Mar/2025:17:46:57 +0000] "POST /category/add HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:46:57 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:46:57 [INFO]: ::1 - - [13/Mar/2025:17:46:57 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3529 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:47:05 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:47:05 [INFO]: ::1 - - [13/Mar/2025:17:47:05 +0000] "POST /category/add HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:47:22 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:47:22 [INFO]: ::1 - - [13/Mar/2025:17:47:22 +0000] "POST /category/add HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:47:22 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:47:22 [INFO]: ::1 - - [13/Mar/2025:17:47:22 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3649 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:47:26 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:47:26 [INFO]: ::1 - - [13/Mar/2025:17:47:26 +0000] "POST /category/delete HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:47:26 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:47:26 [INFO]: ::1 - - [13/Mar/2025:17:47:26 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3352 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:49:41 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:49:41 [INFO]: ::1 - - [13/Mar/2025:17:49:41 +0000] "POST /category/add HTTP/1.1" 200 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:50:36 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:50:36 [INFO]: ::1 - - [13/Mar/2025:17:50:36 +0000] "POST /category/update HTTP/1.1" 200 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:50:50 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:50:50 [INFO]: ::1 - - [13/Mar/2025:17:50:50 +0000] "POST /category/update HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:50:50 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:50:50 [INFO]: ::1 - - [13/Mar/2025:17:50:50 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3398 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:51:00 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:51:00 [INFO]: ::1 - - [13/Mar/2025:17:51:00 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 200 3212 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:51:09 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:51:09 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:51:09 [INFO]: ::1 - - [13/Mar/2025:17:51:09 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:51:09 [INFO]: ::1 - - [13/Mar/2025:17:51:09 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:51:11 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:51:11 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:51:11 [INFO]: ::1 - - [13/Mar/2025:17:51:11 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:51:11 [INFO]: ::1 - - [13/Mar/2025:17:51:11 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:46 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:53:46 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:53:46 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:53:46 [INFO]: ::1 - - [13/Mar/2025:17:53:46 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:46 [INFO]: ::1 - - [13/Mar/2025:17:53:46 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:46 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:53:46 [INFO]: ::1 - - [13/Mar/2025:17:53:46 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:46 [INFO]: ::1 - - [13/Mar/2025:17:53:46 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:48 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:53:48 [INFO]: ::1 - - [13/Mar/2025:17:53:48 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:55 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:53:55 [INFO]: ::1 - - [13/Mar/2025:17:53:55 +0000] "POST /category/add HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:53:55 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:53:55 [INFO]: ::1 - - [13/Mar/2025:17:53:55 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3514 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:54:05 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:54:05 [INFO]: ::1 - - [13/Mar/2025:17:54:05 +0000] "POST /category/update HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:54:36 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:54:37 [INFO]: ::1 - - [13/Mar/2025:17:54:37 +0000] "POST /category/update HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:55:35 [INFO]: 转发请求: POST /category/add
+2025-03-14 01:55:35 [INFO]: ::1 - - [13/Mar/2025:17:55:35 +0000] "POST /category/add HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:55:35 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:55:35 [INFO]: ::1 - - [13/Mar/2025:17:55:35 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3630 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:55:40 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:55:40 [INFO]: ::1 - - [13/Mar/2025:17:55:40 +0000] "POST /category/update HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:36 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:57:36 [INFO]: ::1 - - [13/Mar/2025:17:57:36 +0000] "POST /category/update HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:36 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:57:36 [INFO]: ::1 - - [13/Mar/2025:17:57:36 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3680 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:47 [INFO]: 转发请求: POST /category/update
+2025-03-14 01:57:47 [INFO]: ::1 - - [13/Mar/2025:17:57:47 +0000] "POST /category/update HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:47 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:57:47 [INFO]: ::1 - - [13/Mar/2025:17:57:47 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3730 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:52 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:57:52 [INFO]: ::1 - - [13/Mar/2025:17:57:52 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 200 3235 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:56 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:57:56 [INFO]: ::1 - - [13/Mar/2025:17:57:56 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:57:56 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:57:56 [INFO]: ::1 - - [13/Mar/2025:17:57:56 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:58:00 [INFO]: 转发请求: POST /category/delete
+2025-03-14 01:58:00 [INFO]: ::1 - - [13/Mar/2025:17:58:00 +0000] "POST /category/delete HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:58:02 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:58:02 [INFO]: ::1 - - [13/Mar/2025:17:58:02 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:58:04 [INFO]: 转发请求: GET /users/activities
+2025-03-14 01:58:04 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:58:04 [INFO]: ::1 - - [13/Mar/2025:17:58:04 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:58:04 [INFO]: ::1 - - [13/Mar/2025:17:58:04 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3282 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:59:58 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:59:58 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 01:59:58 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 01:59:58 [INFO]: ::1 - - [13/Mar/2025:17:59:58 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:59:58 [INFO]: ::1 - - [13/Mar/2025:17:59:58 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:59:58 [INFO]: ::1 - - [13/Mar/2025:17:59:58 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 01:59:58 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 01:59:59 [INFO]: ::1 - - [13/Mar/2025:17:59:59 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:06 [INFO]: 转发请求: POST /category/add
+2025-03-14 02:00:06 [INFO]: ::1 - - [13/Mar/2025:18:00:06 +0000] "POST /category/add HTTP/1.1" 200 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:06 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 02:00:06 [INFO]: ::1 - - [13/Mar/2025:18:00:06 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3404 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:09 [INFO]: 转发请求: POST /category/delete
+2025-03-14 02:00:09 [INFO]: ::1 - - [13/Mar/2025:18:00:09 +0000] "POST /category/delete HTTP/1.1" 200 67 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:11 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 02:00:11 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 02:00:11 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 02:00:11 [INFO]: ::1 - - [13/Mar/2025:18:00:11 +0000] "GET /permissions/getByUser HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:11 [INFO]: ::1 - - [13/Mar/2025:18:00:11 +0000] "GET /menu/getAll HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:11 [INFO]: ::1 - - [13/Mar/2025:18:00:11 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 200 3282 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:00:11 [INFO]: 转发请求: GET /category/getAll
+2025-03-14 02:00:11 [INFO]: ::1 - - [13/Mar/2025:18:00:11 +0000] "GET /category/getAll?pageNum=1&pageSize=12&name= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:13 [INFO]: 转发请求: GET /menu/page
+2025-03-14 02:01:13 [INFO]: 转发请求: GET /menu/parents
+2025-03-14 02:01:13 [INFO]: ::1 - - [13/Mar/2025:18:01:13 +0000] "GET /menu/parents HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:13 [INFO]: ::1 - - [13/Mar/2025:18:01:13 +0000] "GET /menu/page?pageNum=1&pageSize=15&label= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:16 [INFO]: 转发请求: GET /users/activities
+2025-03-14 02:01:16 [INFO]: ::1 - - [13/Mar/2025:18:01:16 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 200 3250 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:19 [INFO]: 转发请求: GET /users/activities
+2025-03-14 02:01:19 [INFO]: ::1 - - [13/Mar/2025:18:01:19 +0000] "GET /users/activities?pageNum=2&pageSize=20&username= HTTP/1.1" 200 1771 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:24 [INFO]: 转发请求: GET /users/activities
+2025-03-14 02:01:24 [INFO]: ::1 - - [13/Mar/2025:18:01:24 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:36 [INFO]: 登录请求: test1
+2025-03-14 02:01:36 [INFO]: 登录成功: {"userId":11,"username":"test1"}
+2025-03-14 02:01:36 [INFO]: ::1 - - [13/Mar/2025:18:01:36 +0000] "POST /login HTTP/1.1" 200 329 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:36 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 02:01:36 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 02:01:36 [INFO]: ::1 - - [13/Mar/2025:18:01:36 +0000] "GET /permissions/getByUser HTTP/1.1" 200 1956 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:36 [INFO]: ::1 - - [13/Mar/2025:18:01:36 +0000] "GET /menu/getAll HTTP/1.1" 200 850 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:41 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:41 [INFO]: ::1 - - [13/Mar/2025:18:01:41 +0000] "GET /statistics/echarts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:43 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:43 [INFO]: ::1 - - [13/Mar/2025:18:01:43 +0000] "GET /statistics/echarts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:44 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:44 [INFO]: ::1 - - [13/Mar/2025:18:01:44 +0000] "GET /statistics/echarts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:44 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:44 [INFO]: ::1 - - [13/Mar/2025:18:01:44 +0000] "GET /statistics/echarts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:46 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:46 [ERROR]: 请求转发错误: 
+2025-03-14 02:01:46 [INFO]: ::1 - - [13/Mar/2025:18:01:46 +0000] "GET /statistics/echarts HTTP/1.1" 200 37 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:46 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:46 [INFO]: ::1 - - [13/Mar/2025:18:01:46 +0000] "GET /statistics/echarts HTTP/1.1" 200 499 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:47 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:47 [INFO]: ::1 - - [13/Mar/2025:18:01:47 +0000] "GET /statistics/echarts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:49 [INFO]: 转发请求: GET /statistics/echarts
+2025-03-14 02:01:49 [INFO]: ::1 - - [13/Mar/2025:18:01:49 +0000] "GET /statistics/echarts HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:01:59 [INFO]: 转发请求: GET /users/activities
+2025-03-14 02:01:59 [INFO]: ::1 - - [13/Mar/2025:18:01:59 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 200 3227 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:09:05 [INFO]: 转发请求: GET /users/activities
+2025-03-14 02:09:05 [INFO]: 转发请求: GET /menu/getAll
+2025-03-14 02:09:05 [INFO]: 转发请求: GET /permissions/getByUser
+2025-03-14 02:09:05 [INFO]: ::1 - - [13/Mar/2025:18:09:05 +0000] "GET /permissions/getByUser HTTP/1.1" 200 3056 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:09:05 [INFO]: ::1 - - [13/Mar/2025:18:09:05 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:09:05 [INFO]: ::1 - - [13/Mar/2025:18:09:05 +0000] "GET /menu/getAll HTTP/1.1" 200 1081 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+2025-03-14 02:09:05 [INFO]: 转发请求: GET /users/activities
+2025-03-14 02:09:05 [INFO]: ::1 - - [13/Mar/2025:18:09:05 +0000] "GET /users/activities?pageNum=1&pageSize=20&username= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
